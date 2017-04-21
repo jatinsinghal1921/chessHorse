@@ -1,0 +1,113 @@
+<html>
+<head>
+	<title>Knight Travels</title>
+	<style type="text/css">
+    html { background-color: #34495e;}
+	table ,tr,td{border: 1px solid black;text-align: center;border-collapse: collapse;}	
+    h1 {font-family: 'Alegreya Sans', sans-serif; text-decoration: none; color: white;}
+    input { margin-left: 5px;}
+    input#src { margin-right: 30px;}
+    input#des { margin-right: 15px;}
+    .form { font-family: 'Alegreya Sans', sans-serif; color: white;}
+    p#result {color: white;}
+    </style>
+</head>
+<body>
+<h1 align="center">KNIGHT TRAVELS</h1>
+<br>
+<center>
+<div class="form">
+    <label for="src">Source: </label>
+	<input type="number" name="src" id="src" min="0" max="63" required>
+	<label for="des">Destination: </label>
+    <input type="number" name="des" id="des" min="0" max="63" required>
+    <button onclick="myfunction()">Go!</button>
+</div>
+</center>
+<br>
+<center><p id = "result"></p></center>
+<table width="40%" height="60%" align="center">
+    <tr>
+        <td id = "0" bgcolor="brown">0</td>
+        <td id = "1">1</td>
+        <td id = "2" bgcolor="brown">2</td>
+        <td id = "3">3</td>
+        <td id = "4" bgcolor="brown">4</td>
+        <td id = "5">5</td>
+        <td id = "6" bgcolor="brown">6</td>
+        <td id = "7">7</td>
+    </tr>
+    <tr>
+        <td id = "8">8</td>
+        <td id = "9" bgcolor="brown">9</td>
+        <td id = "10">10</td>
+        <td id = "11" bgcolor="brown">11</td>
+        <td id = "12">12</td>
+        <td id = "13" bgcolor="brown">13</td>
+        <td id = "14">14</td>
+        <td id = "15" bgcolor="brown">15</td>
+    </tr>
+    <tr>
+        <td id = "16" bgcolor="brown">16</td>
+        <td id = "17">17</td>
+        <td id = "18" bgcolor="brown">18</td>
+        <td id = "19">19</td>
+        <td id = "20" bgcolor="brown">20</td>
+        <td id = "21">21</td>
+        <td id = "22" bgcolor="brown">22</td>
+        <td id = "23">23</td>
+    </tr>
+    <tr>
+        <td id = "24">24</td>
+        <td id = "25" bgcolor="brown">25</td>
+        <td id = "26">26</td>
+        <td id = "27" bgcolor="brown">27</td>
+        <td id = "28">28</td>
+        <td id = "29" bgcolor="brown">29</td>
+        <td id = "30">30</td>
+        <td id = "31" bgcolor="brown">31</td>
+    </tr>
+    <tr>
+        <td id = "32" bgcolor="brown">32</td>
+        <td id = "33">33</td>
+        <td id = "34" bgcolor="brown">34</td>
+        <td id = "35">35</td>
+        <td id = "36" bgcolor="brown">36</td>
+        <td id = "37">37</td>
+        <td id = "38" bgcolor="brown">38</td>
+        <td id = "39">39</td>
+    </tr>
+    <tr>
+        <td id = "40">40</td>
+        <td id = "41" bgcolor="brown">41</td>
+        <td id = "42">42</td>
+        <td id = "43" bgcolor="brown">43</td>
+        <td id = "44">44</td>
+        <td id = "45" bgcolor="brown">45</td>
+        <td id = "46">46</td>
+        <td id = "47" bgcolor="brown">47</td>
+    </tr>
+    <tr>
+        <td id = "48" bgcolor="brown">48</td>
+        <td id = "49">49</td>
+        <td id = "50" bgcolor="brown">50</td>
+        <td id = "51">51</td>
+        <td id = "52" bgcolor="brown">52</td>
+        <td id = "53">53</td>
+        <td id = "54" bgcolor="brown">54</td>
+        <td id = "55">55</td>
+    </tr>
+    <tr>
+        <td id = "56">56</td>
+        <td id = "57" bgcolor="brown">57</td>
+        <td id = "58">58</td>
+        <td id = "59" bgcolor="brown">59</td>
+        <td id = "60">60</td>
+        <td id = "61" bgcolor="brown">61</td>
+        <td id = "62">62</td>
+        <td id = "63" bgcolor="brown">63</td>
+    </tr>
+</table>
+<script src="file.js"></script>
+</body>
+</html>
